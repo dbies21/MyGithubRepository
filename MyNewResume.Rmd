@@ -1,0 +1,42 @@
+---
+title: "MyNewResume"
+author: "Daniel Bies"
+date: "September 12, 2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Daniel Bies
+## Senior Business Administration Student
+### 425-829-4111 | dbies@zagmail.gonzaga.edu
+## Objective
+I want to use my career in business as a platform to positively impact the lives of others.
+
+## Education
+### Gonzaga University, Spokane, WA (2014-2017)
+#### Bachelor in Business Administration
+##### Concentrations in Finance, Economics and Operations
+  GPA - 3.6
+  4x Dean's List, President's List Fall 2016
+  Coursework - Business Management Information Systems, Principles of Accounting 1&2, Macroeconomics, Microeconomics, Business Statistics and Business Computing
+
+## Skills and Abilities 
+Proficient in Powerpoint, Excel and RStudio (Used to format this resume)
+
+## Experience 
+### Anchorage Bucs Baseball Club, Anchorage, AK (Summer 2016)
+I arrived at the field an hour early to every home game to help clean the stadium to ensure a good viewing experience for the fans.
+### Bourne Braces Baseball Club, Bourne, MA (Summer 2017)
+Served as a camp instructor for the Bourne Braves weekly youth clinic. Instructed and monitored various stations, teaching fundamentals to campers ages 5-14. 
+
+## Volunteer Experience 
+Gonzaga University Specialized Recreation volunteer (2014-2017)
+Member of Gonzaga University Baseball Team (Ranked #2 Nationally in 2016 Community Service)
+
+## Leadership
+Years of experience leading in the classroom and in sports, often leading group projects and serving as the team captain of various baseball teams. 
