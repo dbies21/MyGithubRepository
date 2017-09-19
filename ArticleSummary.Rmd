@@ -1,0 +1,63 @@
+---
+title: "Summary of Graph Selection Article"
+author: "Daniel Bies"
+date: "September 17, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Determine What You Need
+This was one of the most important points the author highlighted in this article. Before you start thinking about what type of graph you need to convey your data, you must make sure that you actually need a graph! This is something that many people overlook. Sometimes it is easier (and more effective) to convey the data in a data table rather than a graph. Data tables are often more effective when the viewer needs to look up individual data points rather than look at trends. 
+
+## Six Fundamental Stages
+### The author created a six-step sequential checklist for making graphs.
+1) Determine your message and identify the data necessary to communicate it.
+2) Determine if a table, graph, or combination of both is needed to communicate your message.
+
+#### The remaining four steps only are necessary if multiple graphs are necessary, which isn't often.
+3) Determine the best means to encode the values.
+4) Determine where to display each variable.
+5) Determine the best design for the remaining objects.
+6) Determine if particular data should be featured above the rest, and if so, how.
+
+The remainder of the article is to educate the reader to the point where they can understand these steps and implement them when they're making graphs.
+
+## Types of Data
+### Categorical vs. Quantitative
+Quantitative data is numbers based, suchas the total number of sales that were made. Conversely, categorical data is descriptive and uses words. This would be what region the sales were being made in, or what time period. 
+
+#### Types of Categorical Data
+* Nominal (Region or Department)
+* Ordinal (Have an intrinsic order, but do not carry value. A,B,C or 1st, 2nd, 3rd)
+* Interval (Have an intrinsic order, but represent number values as well. Months would fall into this category)
+
+## Seven Common Relationships in Quantitative Data
+### The author describes a number as very uninteresting, but a relationship between numbers is where meaningful conclusions can be made. 
+* Time-Series Relationships (Reveals how data has changed over time)
+* Ranking Relationships (When quantitative values are sequenced by size)
+* Part-to-Whole Relationships (Shows the makeup of a whole, divided into parts)
+* Deviation Relationships (Shows how sets of values differ from a reference set of values)
+* Distribution Relationships (Show how range of data is distributed across its range)
+* Correlation Relationships (Shows relationships between quantitative variables in relation to an entity)
+* Nominal Comparison Relationships (Not interesting, should be avoided or added to)
+
+## Points, Lines, Bars and Boxes
+### It is important that the creator of the graph knows how to use these tools and when
+* Points (Used for two quantitative scales at once, or in place of bars when scale doesn't start at zero)
+* Lines (Used to emphasize the change in data OVER TIME)
+* Bars (Can be horizontal or vertical, best used for emphasizing individual values)
+* Boxes (Like bars, but can contain multiple qunatitative values with how the box is presented)
+
+## Graph Selection Process
+* Determine your message and identify your data
+* Determine if a table, graph, or combination of both is needed to communicate your message 
+* Determine the best means to encode the values 
+* Determine where to encode each variable 
+* Determine the best design for the remanining objects
+* Determine if particular data should be displayed, and if so, how.
+
+## Conclusion
+There was a lot of information in this article, and I formatted this summary in a way that I can look back on it and use it as a guide of sorts in the future. 
