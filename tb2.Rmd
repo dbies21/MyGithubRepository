@@ -3,8 +3,8 @@ title: "TallestBuildingsAssignment"
 author: "Daniel Bies and Gonzalo Del Carpio"
 date: "October 3, 2017"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -20,6 +20,7 @@ tb=read_excel("tallestbuildings.xlsx")
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+names(tb)[6]="height"
 ```
 
 ```{r}
@@ -30,6 +31,7 @@ head(tb)
 Citycounts=tb%>%group_by(City)%>%summarize(number=length(height))
 ```
 
+
 ###Code for graph 1:
 
 ```{r}
@@ -39,12 +41,12 @@ ggplot(Citycounts,aes(reorder(City,-number),number)) + geom_bar(stat= "identity"
 ###Code for graph 2:
 
 ```{r}
-Citymeangood=tb%>% group_by(City)%>%summarise(mean.height=mean(height))
+Citymean=tb%>% group_by(City)%>%summarise(length=mean(height))
 ggplot(Citymean,aes(reorder(City,-length),length)) + geom_bar(stat= "identity", fill="blue") + coord_flip()
 ```
 
 ```{r}
-install.packages("countrycode")
+#install.packages("countrycode")
 library(countrycode)
 ```
 
